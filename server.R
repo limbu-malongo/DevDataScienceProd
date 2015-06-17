@@ -23,5 +23,18 @@ shinyServer(
        
       })
     
+    
+    output$op_repo <- renderText({
+      '<br><b><a href="https://github.com/limbu-malongo/DevDataScienceProd"> Repository on Github Containing the Code</a></b><br><br>'
+      
+    })
+    
+    
+    output$op_paper <- renderText({
+      '<b><a href="http://www.amstat.org/publications/jse/v20n3/mclaren.pdf"> The Paper Inspired this Project</a></b>'
+      
+    })
+    
+    
   }
 )

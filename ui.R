@@ -31,7 +31,9 @@ shinyUI(pageWithSidebar(
     verbatimTextOutput("op_Gender"),
     h3('Your Predicted Height (in Inches):'),
     # verbatimTextOutput("op_name"),
-    verbatimTextOutput("op_prediction")
+    verbatimTextOutput("op_prediction"),
+    uiOutput("op_repo"),
+    uiOutput("op_paper")
 
   )
 ))
